@@ -305,6 +305,7 @@ namespace capstoneProject
             temp.TimesheetMinutes = mins;
             temp.TimesheetTicks = _ticks;
 
+
             // WRITE NEW DATA TO FILE
             writer.WriteLine(temp.TimesheetID);
             writer.WriteLine(temp.TimesheetDate);
